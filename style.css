@@ -1,0 +1,131 @@
+body{
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+background-color:   hsl(225, 100%, 94%);
+background-image: url('images/pattern-background-desktop.svg');
+background-repeat: no-repeat;
+background-size: 100% 18.70em;
+
+}
+
+
+                                    
+
+/* .designbg{
+
+
+} */
+
+.summary-container{
+    background-color: white;
+    margin-top: 6.5em;
+    /* border: 3px solid black; */
+    height: 34em;
+    width:27%;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/illustration-hero.svg');
+    background-repeat: no-repeat;
+    background-size: 23.125em;
+}
+
+.box-content{
+    align-self: center;
+    margin-top:10.5em;
+    color: hsl(223, 47%, 23%);
+    
+    font-family: 'Red Hat Display', sans-serif;
+    }
+   
+#heading1{
+    margin-left: 2.30em;
+    font-weight: 900;
+    font-size: 1.4em;
+}
+
+.para{
+    margin-top: -5px;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    font-weight: 500;
+    font-size: .93em;
+}
+.plan{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 16px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.image{
+    height: 45px;
+    padding: 13px;
+    margin-right: 7px;
+    
+}
+.h2{
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(223, 47%, 23%);
+    font-size: 16px;
+}
+.h4{
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+   margin-top: -12px;
+   font-size: 15px;
+}
+.link{
+    padding-left: 80px;
+    margin-right: 20px;
+    font-weight: 700;
+   color: hsl(245, 75%, 52%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+.link:hover{
+    color: #766cf1;
+}
+.vtn{
+    border-radius: 10px;
+
+    width: 285px;
+    margin-top: 25px;
+    background-color: hsl(245, 75%, 52%);
+    padding: 13px;
+    box-shadow: 0px 10px 22px 1px  #b4afe2 ;
+
+}
+.vtn:hover{
+    background-color: #766cf1;
+    
+    }
+.vtn2{
+   margin-left: 70px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+    
+    
+    
+}
+.cancel{
+    margin-top: 20px;
+}
+.cancel-o{
+    font-family: 'Red Hat Display', sans-serif;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+.cancel-o:hover{
+    color:  hsl(223, 47%, 23%);
+}
+
